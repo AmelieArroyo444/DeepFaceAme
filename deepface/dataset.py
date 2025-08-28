@@ -2,7 +2,7 @@
 
 import tensorflow as tf
 
-SHUFFLE_BUFFER = 1 # set this externally to the number of items in dataset for ideal results
+SHUFFLE_BUFFER = 10000 # set this externally to the number of items in dataset for ideal results
 
 class Dataset:
     @staticmethod
